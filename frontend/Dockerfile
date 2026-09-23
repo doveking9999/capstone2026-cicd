@@ -1,4 +1,4 @@
-# 1. 빌드 단계: Node.js를 이용해 React 빌드
+﻿# 1. 빌드 단계: Node.js를 이용해 React 빌드
 FROM node:18 AS build
 WORKDIR /app
 COPY package*.json ./
